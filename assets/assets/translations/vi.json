@@ -1,0 +1,47 @@
+{
+  "title": "Lift Up",
+  "login": {
+    "title": "Đăng nhập",
+    "user_id": {
+      "label": "ID hoặc email",
+      "suggest": "E.g: namle1234"
+    },
+    "button_label": "Đăng nhập",
+    "password": {
+      "label": "Mật khẩu"
+    },
+    "error": {
+      "use_password_instead": "Lỗi, sử dụng mật khẩu để đăng nhập!"
+    }
+  },
+  "face_id": {
+    "capture": {
+      "title_login": "Đăng nhập bằng khuôn mặt",
+      "status": {
+        "finding_face": "Đang tìm khuôn mặt...",
+        "face_detected": "Giữ nguyên...",
+        "face_detected_too_far": "Tiến gần lại!",
+        "face_detected_too_close": "Đưa xa ra!",
+        "face_detected_not_in_center": "Di chuyển ra giữa!",
+        "face_captured": "Thành công"
+      },
+      "tips": {
+        "label": "Mẹo:",
+        "1": "- Xoay mặt đến các vị trí thẳng, trái, phải, trên, dưới, rồi giữ nguyên cho tới khi quá trình hoàn tất.",
+        "2": "- Đảm bảo môi trường có đủ ánh sáng.",
+        "3": "- Cười lên :D"
+      }
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "switchTheme": "Theme Sáng/Tối"
+  },
+  "appbar": {
+    "upgradeButton": "NÂNG CẤP"
+  },
+  "text_field_empty_error": "Không được để chống",
+  "message": {
+    "unknown_error": "Lỗi không xác định!"
+  }
+}

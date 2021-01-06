@@ -1,0 +1,118 @@
+{
+  "title": "Lift Up",
+  "login": {
+    "title": "Log in",
+    "user_id": {
+      "label": "User ID or email",
+      "suggest": "E.g: namle1234"
+    },
+    "button_label": "Log in",
+    "password": {
+      "label": "Password"
+    },
+    "error": {
+      "use_password_instead": "Error, use password instead!"
+    }
+  },
+  "face_id": {
+    "capture": {
+      "title_login": "Logging in with Face ID",
+      "status": {
+        "finding_face": "Finding your face...",
+        "face_detected": "Stay still...",
+        "face_detected_too_far": "Move closer!",
+        "face_detected_too_close": "Move further!",
+        "face_detected_not_in_center": "Move to center!",
+        "face_captured": "Face captured"
+      },
+      "tips": {
+        "label": "Tips",
+        "1": "- Move your face straight, up, down, left, right, and hold until the progress circle fill up.",
+        "2": "- Make sure you have a good light condition.",
+        "3": "- Smile :D"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "switchTheme": "Light/Dark Theme"
+  },
+  "appbar": {
+    "upgradeButton": "UPGRADE"
+  },
+  "text_field_empty_error": "Must not left empty",
+  "message": {
+    "unknown_error": "Unknown error"
+  },
+  "signup": {
+    "signup_err_title": "Fail to signup",
+    "signup_err_desc": "We’re sorry. This login email already exists. Please try a different email address to register, or login to your existing account.",
+    "backBtn": "Back",
+    "slogan": "Bright up Your Life with AI Model!",
+    "signup": "Sign Up",
+    "email_err": "Please enter a valid email",
+    "email_hint": "your company email",
+    "password_err": "The password can't be null and must be more than 6 characters!",
+    "password_hint": "your password",
+    "fullname_hint": "your full name",
+    "workspace_hint": "your workspace name",
+    "agree_text": "I agree to ",
+    "term_text": "the terms of service",
+    "remember_text": "Remember me",
+    "forgot_text": "Forgot Password?"
+  },
+  "signin": {
+    "signin_err_title": "Fail to login",
+    "signin_err_desc": "Your email or password is not correct, please try again or contact with admin for more detail!",
+    "signin": "Sign In",
+    "social_text": "You can sign in with social",
+    "git_tootip": "Github",
+    "gg_tootip": "Google",
+    "fb_tootip": "Facebook"
+  },
+  "forgot_password": {
+    "forgot_password": "Forgot Password",
+    "forgot_password_text": "Please enter your registered email to get reset password email",
+    "forgot_password_email_hint": "enter your email",
+    "forgot_password_sendmail_btn": "Send Email",
+    "forgot_password_err_title": "Wrong email",
+    "forgot_password_err_desc": "Your input email doesn't existed on our system, please try again!",
+    "forgot_password_success_title": "Reset Password",
+    "forgot_password_success_desc": "We just sent you an email with a link to setup your new password.",
+    "backBtn": "Back to Login"
+  },
+  "reset_password": {
+    "reset_password": "Reset Password",
+    "reset_password_text": "Please setup your new password to login with email:",
+    "reset_password_confirm_err": "Your confirm password doesn't match with new password!",
+    "reset_password_err_title": "Reset Password expired",
+    "reset_password_err_desc": "Your reset password request has been expired!",
+    "backBtn": "Back to Forgot Password",
+    "reset_password_success_title": "Reset Password Successfully",
+    "reset_password_success_desc": "Your new password has been update."
+  },
+  "workspace": {
+    "title": "Please select your workspace to work in"
+  },
+  "projects": {
+    "search_hint": "Input text then press enter to search",
+    "sort": "Sort",
+    "filter_created_date": "Created Date",
+    "filter_changed_date": "Changed Date",
+    "filter_name": "Name",
+    "filter_type": "Type",
+    "new_project_btn": "New Project",
+    "done_text": "Done",
+    "submenu_view_tasks": "View Tasks",
+    "submenu_members": "Members",
+    "submenu_datasets": "Datasets",
+    "submenu_download": "Download",
+    "submenu_delete": "Delete"
+  },
+  "user_setting": {
+    "my_profile": "My Profile",
+    "my_wp": "My Workspace",
+    "switch_wp": "Switch Workspace",
+    "logout": "Logout"
+  }
+}

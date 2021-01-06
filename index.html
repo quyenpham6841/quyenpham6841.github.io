@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="LiftUp cross-platform app">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="liftup_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>liftup_app</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="google-signin-client_id"
+    content="155009691933-ne5gj47b31ehgef848vkl01guuo73us1.apps.googleusercontent.com">
+</head>
+
+<body>
+  <!--Facebook SDK config -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '1341142136231970',
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: 'v7.0'
+      });
+    };
+  </script>
+
+  <!-- Facebook JS CDN SDK -->
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+  <!-- for interop with dart through this plugin -->
+  <script src="https://flutterfacebooklogin.s3.us-east-2.amazonaws.com/web_interop.js"></script>
+
+  <!-- This script installs service_worker.js to provide PWA functionality toq
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=400973004');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+
+</html>
