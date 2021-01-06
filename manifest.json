@@ -1,7 +1,7 @@
 {
-    "name": "liftup_app",
-    "short_name": "liftup_app",
-    "start_url": ".",
+    "name": "Lift Up",
+    "short_name": "Lift Up",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
