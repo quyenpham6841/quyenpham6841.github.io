@@ -1,3 +1,4 @@
+**More information: [here](https://kodytechnolab.com/develop-and-launch-progressive-web-app)**
 # Setup flutter for web
 ```bash
 flutter channel beta
@@ -18,11 +19,6 @@ Open and edit manifest.json file in "/build/web" folder manualy.
 
 Or generate automatically at:
 [Web App Manifest Generator](https://app-manifest.firebaseapp.com/)
-
-start_url should be your index.html file. *Example:*
-```json
-    "start_url": "/index.html",
-```
 
 ## Favicon & App Icon Generator (mobile device)
 More information at: https://kodytechnolab.com/develop-and-launch-progressive-web-app
